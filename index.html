@@ -7,18 +7,25 @@
   <meta name="description" content="AE Corporations provides expert ERP and Business Intelligence consultancy, helping organizations streamline systems and gain insights through data." />
   <style>
 
-    .header-container {
+.header-container {
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  align-items: flex-start; /* start at top first */
   gap: 1rem;
   max-width: 1000px;
   margin: 0 auto;
+  padding-top: 0.5rem;
 }
 
 .logo {
-  height: 60px;
+  height: 2.2rem; /* roughly aligns with text height */
   width: auto;
+  margin-top: 0.3rem; /* fine-tune vertical alignment */
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  line-height: 1.2;
 }
 
     body {
